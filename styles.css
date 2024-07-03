@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-  --primary-color: #42200b;
-  --secondary-color: #ffc135;
+  --primary-color: black;
+  --secondary-color: yellow;
   --tertiary-color: #df1c1c;
   --text-dark: #212529;
   --white: #ffffff;
@@ -74,7 +74,7 @@ body {
 }
 
 .header {
-  background-image: url("assets/header-bg.png");
+  background-image: url("/assets/plantain.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -196,11 +196,11 @@ nav {
 }
 
 .banner__card:nth-child(1) {
-  background-image: url("assets/banner-1.png");
+  background-image: url("/assets/nyamachoma.jpg");
 }
 
 .banner__card:nth-child(2) {
-  background-image: url("assets/banner-2.png");
+  background-image: url("assets/food.jpg");
 }
 
 .banner__card:nth-child(3) {
