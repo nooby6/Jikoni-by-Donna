@@ -11,3 +11,46 @@
     --header-font-2: "Bebas Neue", sans-serif;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section__container {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 5rem 1rem;
+}
+
+.section__header{
+    font-size: 3rem;
+    font-weight: 500;
+    font-family: var(--header-font-1);
+    color: var(--primary-color);
+    text-align: center;
+    line-height: 3.75rem;
+    text-shadow: 2px 2px var(--secondary-color);
+}
+
+.section__description {
+    font-weight: 500;
+    color: var(--text-dark);
+    line-height: 1.75rem;
+}
+
+.btn{
+    padding: 1rem 1.5rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    color: var(--white);
+    background-color: var(--tertiary-color);
+    transition: .3s;
+    cursor: pointer;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
