@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --primary-color: #42200b;
+    --primary-color: #yellow;
     --secondary-color: #ffc135;
     --tertiaty-color: #df1c1c;
     --text-dark: #212529;
@@ -27,7 +27,7 @@
     font-size: 3rem;
     font-weight: 500;
     font-family: var(--header-font-1);
-    color: var(--primary-color);
+    color: var(--secondary-color);
     text-align: center;
     line-height: 3.75rem;
     text-shadow: 2px 2px var(--secondary-color);
@@ -74,7 +74,7 @@ body {
 }
 
 .header {
-    background-image: url("./assets/Donna\'s\ Kitchen\ white\ bg.png");
+    background-image: url("/assets/Donnas\ logo\ final.png");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
