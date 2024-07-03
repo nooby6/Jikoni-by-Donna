@@ -103,3 +103,14 @@ nav {
 .nav__logo-dark {
     display: none;
 }
+
+.nav__menu__btn {
+    font-size: 1.5rem;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.nav__links {
+    position: absolute;
+    top: 60px;
+}
