@@ -200,11 +200,11 @@ nav {
 }
 
 .banner__card:nth-child(2) {
-  background-image: url("assets/food.jpg");
+  background-image: url("/assets/beef\ stew.jpg");
 }
 
 .banner__card:nth-child(3) {
-  background-image: url("assets/banner-3.png");
+  background-image: url("/assets/background.jpg");
 }
 
 .banner__card p {
@@ -338,7 +338,7 @@ nav {
 }
 
 .footer {
-  background-image: url("assets/footer-bg.png");
+  background-image: url("/assets/food.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
